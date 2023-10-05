@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Phoenix</title> <!-- Changed the title here -->
+    <style>
+        body {
+            font-family: 'Garamond', sans-serif;
+            background-color: #b0f5b0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+		
+          header {
+            background-color: black;
+            color: #fff;
+            padding: 1em;
+        }
+
+
+
+        main {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: black;
+            color: black;
+            padding: 1em;
+        }
+
+        body {
+    font-family: 'Roboto', sans-serif;
+}
+
+        .about-button {
+            background-color: #0aad36;
+            color: #fff;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-right: 1em;
+		}
+		.home-button {
+            background-color: #0aad36;
+            color: #fff;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-right: 1em;
+		}
+        
+		
+			
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Medical Phoenix</h1> 
+
+
+       
+	
+    
+	      <a href="home.html" class="home-button">Home</a> 
+		  <a href="about.html" class="about-button">About Us</a> 
+    </header>
+
+    <main>
+        <h2>Welcome to Medical Phoenix!</h2>
+        <p>Medical Phoenix is your all-in-one medication management app, simplifying your healthcare routine by helping you organize and track all your medicines.
+		It sends timely expiration date alerts, ensuring you never use expired medications, and lets you set personalized medication schedules. With a comprehensive drug information database, you can access details about your medicines, and it integrates with your health records for a more accurate medication list. Medical Phoenix prioritizes your privacy, offering secure data storage and syncs across devices for easy access. 
+		Take control of your health with this user-friendly app, streamlining your medication management for better health outcomes and peace of mind.</p>
+  <img src="phoenix.jpg" height = "300" width= "600">  
+
+
+	</main>
+
+
+<a href="join now.html">
+    <button style="background-color: #4287f5; width: 190px; height: 100px;">Join now</button>
+</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sign-In Example</title>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script>
+        function onSignIn(googleUser) {
+            // Handle user authentication and data retrieval here.
+            var profile = googleUser.getBasicProfile();
+            console.log('Logged in as: ' + profile.getName());
+            // You can send this user data to your server for authentication.
+        }
+    </script>
+</head>
+<body>
+    <!-- Google Sign-In button -->
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+    <!-- Custom "Login" button -->
+    <button onclick="customLogin()">Login</button>
+
+    <script>
+        function customLogin() {
+            // Implement your custom login logic here.
+            // This function will be called when the "Login" button is clicked.
+            alert("Custom login function called.");
+        }
+    </script>
+    
+
+</body>
+</html>
